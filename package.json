@@ -1,0 +1,17 @@
+{
+  "name": "bubbletune-landingspage",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "prod": "gulp prod"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "^3.0.0",
+    "browser-sync": "^2.27.10",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  }
+}
