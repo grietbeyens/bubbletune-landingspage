@@ -1,1 +1,70 @@
+header {
+    background-color: $black;
+    position: relative;
+    overflow: hidden;
 
+    .bubble1 img {
+        max-width: 450px;
+        max-height: 450px;
+        position: absolute;
+        z-index: 0;
+        left: 42%;
+        top: -5.5%;
+
+    }
+
+    .bubble2 img {
+        max-width: 360px;
+        max-height: 360px;
+        position: absolute;
+        z-index: 0;
+        right: 56.92%;
+        top: 30%;
+    }
+
+    .bubble3 img {
+        max-width: 480px;
+        height: 480px;
+        position: absolute;
+        z-index: 0;
+        left: 10%;
+        bottom: -15%;
+    }
+
+    .header-container {
+        padding: 2.5em 1.875em;
+        height: calc(100vh - 5em);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-text {
+        h1 {
+            line-height: 110%;
+        }
+    }
+
+    .header-cta {
+        @include flex-center-column;
+
+        a:first-child {
+            margin-bottom: 1em;
+        }
+    }
+
+    .header-mockup {
+        @include flex-center;
+        height: 50vh;
+        position: relative;
+
+        img {
+            width: 260px;
+            position: absolute;
+            z-index: 1;
+            bottom: -30%;
+        }
+    }
+}

@@ -15,3 +15,41 @@ $xxl-font: 4.5em; //72
 $light-font: 300;
 $regular-font: 400;
 $semibold-font: 600;
+
+h1{
+    font-family: $title-font;
+    font-size: $xl-font;
+    font-weight: $semibold-font;
+}
+
+h2{
+    font-family: $title-font;
+    font-size: $large-font;
+    font-weight: $semibold-font;
+}
+
+h3{
+    font-family: $title-font;
+    font-size: $small-font;
+    font-weight: $semibold-font;
+}
+
+.title-regular{
+    font-weight: $small-font;
+    font-weight: $regular-font;
+}
+
+p, .text{
+    font-family: $system-font;
+    font-size: $small-font;
+    font-weight: $light-font;
+    line-height: 120%;
+}
+
+.bold-text{
+    font-weight: $regular-font;
+}
+
+.big-text{
+    font-size: $medium-font;
+}
