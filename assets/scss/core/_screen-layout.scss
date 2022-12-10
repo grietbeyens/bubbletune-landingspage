@@ -1,3 +1,86 @@
 .text-container {
     margin: 2em 0;
 }
+
+.margin-container {
+    padding: 0 1.875em;
+}
+
+.small-margin {
+    margin-bottom: 1em;
+}
+
+.medium-margin {
+    margin-bottom: 2em;
+}
+
+.large-margin {
+    margin-bottom: 3em;
+}
+
+.image-train {
+    width: 370px;
+    height: auto;
+    margin: 4em 0;
+}
+
+.bg-container {
+    background-color: $black;
+    position: relative;
+    overflow: hidden;
+}
+
+.stats-container {
+    margin: 9em 0;
+}
+
+.the-team {
+    background-color: $gray-transparent;
+    border-radius: 1em;
+    margin-bottom: 6em;
+}
+
+.text-padding {
+    padding: 2em 1em;
+}
+
+.hashtags {
+    margin-bottom: 0.5em;
+}
+
+.hashtag {
+    margin-right: 0.5em;
+}
+
+.girls {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 2em;
+}
+
+.z-index{
+    position: relative;
+    z-index: 1;
+}
+
+.bubble4 img {
+    max-width: 450px;
+    max-height: 450px;
+    position: absolute;
+    z-index: 0;
+    right: 56.92%;
+    top: 44%;
+}
+
+.bubble5 img {
+    max-width: 360px;
+    max-height: 360px;
+    position: absolute;
+    z-index: 0;
+    left: 37%;
+    bottom: -6%;
+}
+
+.title-margin{
+    margin-top: 4em;
+}

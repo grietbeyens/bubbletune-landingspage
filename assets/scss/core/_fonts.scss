@@ -24,7 +24,7 @@ h1{
 
 h2{
     font-family: $title-font;
-    font-size: $large-font;
+    font-size: $xl-font;
     font-weight: $semibold-font;
 }
 
@@ -33,9 +33,14 @@ h3{
     font-size: $small-font;
     font-weight: $semibold-font;
 }
+h4{
+    font-family: $title-font;
+    font-size: $small-font;
+    font-weight: $regular-font;
+}
 
 .title-regular{
-    font-weight: $small-font;
+    font-size: $small-font;
     font-weight: $regular-font;
 }
 
@@ -50,6 +55,23 @@ p, .text{
     font-weight: $regular-font;
 }
 
+.sub-title{
+    font-size: $small-font;
+    font-weight: $semibold-font;
+    font-family: $system-font;
+}
+
 .big-text{
     font-size: $medium-font;
 }
+
+.medium-text{
+    font-size: $medium-font;
+    line-height: 180%;
+}
+
+.xxl-text{
+    font-size: $xxl-font;
+}
+
+
