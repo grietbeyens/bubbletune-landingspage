@@ -6,6 +6,10 @@
     padding: 0 1.875em;
 }
 
+.mini-margin {
+    margin-bottom: 0.5em;
+}
+
 .small-margin {
     margin-bottom: 1em;
 }
@@ -18,6 +22,10 @@
     margin-bottom: 3em;
 }
 
+.xl-margin{
+    margin-bottom:8em;
+}
+
 .image-train {
     width: 370px;
     height: auto;
@@ -28,6 +36,7 @@
     background-color: $black;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .stats-container {
@@ -58,7 +67,7 @@
     padding-bottom: 2em;
 }
 
-.z-index{
+.z-index {
     position: relative;
     z-index: 1;
 }
@@ -81,6 +90,33 @@
     bottom: -6%;
 }
 
-.title-margin{
+.title-margin {
     margin: 4em 0 2em 0;
+}
+
+.mockup {
+    @include flex-center;
+    height: 50vh;
+    position: relative;
+
+    img {
+        width: 260px;
+        position: absolute;
+        z-index: 1;
+        bottom: -42%;
+    }
+}
+
+#material-girls {
+    position: absolute;
+    top: 51%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+
+#tell-me-why,
+#gimme-more {
+    width: 20px;
+    height: 20px;
 }

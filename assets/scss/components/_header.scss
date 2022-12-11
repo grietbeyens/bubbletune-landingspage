@@ -54,17 +54,17 @@ header {
             margin-bottom: 1em;
         }
     }
+}
 
-    .header-mockup {
-        @include flex-center;
-        height: 50vh;
-        position: relative;
+.header-mockup {
+    @include flex-center;
+    height: 50vh;
+    position: relative;
 
-        img {
-            width: 260px;
-            position: absolute;
-            z-index: 1;
-            bottom: -30%;
-        }
+    img {
+        width: 260px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%;
     }
 }

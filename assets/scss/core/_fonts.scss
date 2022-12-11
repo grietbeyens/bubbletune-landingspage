@@ -37,6 +37,7 @@ h4{
     font-family: $title-font;
     font-size: $small-font;
     font-weight: $regular-font;
+    line-height: 120%;
 }
 
 .title-regular{
@@ -53,6 +54,10 @@ p, .text{
 
 .bold-text{
     font-weight: $regular-font;
+}
+
+.bold-title{
+    font-weight: $semibold-font;
 }
 
 .sub-title{

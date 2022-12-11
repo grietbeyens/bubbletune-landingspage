@@ -1,0 +1,29 @@
+.btn {
+    font-family: $title-font;
+    font-size: $small-font;
+    text-decoration: none;
+    background-color: $green;
+    padding: 1em;
+    border-radius: 0.7em;
+
+    img {
+        max-width: 1.5em;
+        max-height: 1.5em;
+        padding-right: 0.5em
+    }
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background-color: $green-light;
+}
+
+.btn:active {
+    color: $black;
+}
+
+.links {
+    text-decoration: none;
+    color: $purple-light;
+    line-height: 130%;
+}
