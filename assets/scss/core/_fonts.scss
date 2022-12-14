@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins:wght@400;600&display=swap');
 
 //font-family
-$title-font: 'Poppins', sans-serif;
-$system-font: 'nunito', sans-serif;
+$title-font: 'Poppins',
+sans-serif;
+$system-font: 'nunito',
+sans-serif;
 
 //font-size
 $small-font: 1.25em; //20
@@ -16,67 +18,67 @@ $light-font: 300;
 $regular-font: 400;
 $semibold-font: 600;
 
-h1{
+h1 {
     font-family: $title-font;
     font-size: $xl-font;
     font-weight: $semibold-font;
 }
 
-h2{
+h2 {
     font-family: $title-font;
     font-size: $xl-font;
     font-weight: $semibold-font;
 }
 
-h3{
+h3 {
     font-family: $title-font;
     font-size: $small-font;
     font-weight: $semibold-font;
 }
-h4{
+
+h4 {
     font-family: $title-font;
     font-size: $small-font;
     font-weight: $regular-font;
     line-height: 120%;
 }
 
-.title-regular{
+.title-regular {
     font-size: $small-font;
     font-weight: $regular-font;
 }
 
-p, .text{
+p,
+.text {
     font-family: $system-font;
     font-size: $small-font;
     font-weight: $light-font;
     line-height: 120%;
 }
 
-.bold-text{
+.bold-text {
     font-weight: $regular-font;
 }
 
-.bold-title{
+.bold-title {
     font-weight: $semibold-font;
 }
 
-.sub-title{
+.sub-title {
     font-size: $small-font;
     font-weight: $semibold-font;
     font-family: $system-font;
 }
 
-.big-text{
+.big-text {
     font-size: $medium-font;
 }
 
-.medium-text{
+.medium-text {
     font-size: $medium-font;
     line-height: 180%;
 }
 
-.xxl-text{
+.xxl-text {
     font-size: $xxl-font;
 }
-
-

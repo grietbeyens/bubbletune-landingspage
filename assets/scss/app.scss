@@ -1,11 +1,12 @@
 // External libs
 @import "../../node_modules/breakpoint-sass/stylesheets/breakpoint";
 
+// Functions
+@import "functions/rem-calc";
+
 // Mixins
 @import "mixins/flex-box";
 
-// Functions
-@import "functions/rem-calc";
 
 // Core
 @import "core/reset";

@@ -2,6 +2,41 @@ footer {
     background-color: $black;
     position: relative;
     z-index: 1;
-    height: 60vh;
+    height: fit-content;
     padding: 4em 1.875em;
+}
+
+@media screen and (min-width: $small) {
+    footer {
+        padding: 4em 2.5em 2em 2.5em;
+        margin-top: 5em;
+    }
+}
+
+
+@media screen and (min-width: $medium) {
+    footer {
+        padding: 4em 4em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .tester {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+        div {
+            margin-left: 3em;
+        }
+
+    }
+}
+
+@media screen and (min-width: $large) {
+    footer{
+        padding: 4em 8em;
+    }
 }

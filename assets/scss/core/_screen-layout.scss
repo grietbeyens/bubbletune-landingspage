@@ -22,14 +22,31 @@
     margin-bottom: 3em;
 }
 
-.xl-margin{
-    margin-bottom:8em;
+.xl-margin {
+    margin-bottom: 8em;
 }
 
 .image-train {
     width: 370px;
     height: auto;
     margin: 4em 0;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    width: 100%;
+
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .bg-container {
@@ -73,21 +90,21 @@
 }
 
 .bubble4 img {
-    max-width: 450px;
-    max-height: 450px;
+    max-width: calc(330px + 20vw);
+    max-height: calc(330px + 20vw);
     position: absolute;
     z-index: 0;
-    right: 56.92%;
-    top: 44%;
+    left: -13em;
+    top: calc(490px + 60vw);
 }
 
 .bubble5 img {
-    max-width: 360px;
-    max-height: 360px;
+    max-width: calc(390px + 10vw);
+    height: calc(390px + 10vw);
     position: absolute;
     z-index: 0;
-    left: 37%;
-    bottom: -6%;
+    right: -10em;
+    bottom: -12em;
 }
 
 .title-margin {
@@ -119,4 +136,30 @@
 #gimme-more {
     width: 20px;
     height: 20px;
+}
+
+@media screen and (min-width: $small) {
+    .margin-container {
+        padding: 0 2.5em;
+    }
+
+    @media screen and (max-height: 800px) {
+        .mockup {
+            img {
+                bottom: -72%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $medium) {
+    .margin-container {
+        padding: 0 4em;
+    }
+}
+
+@media screen and (min-width: $large) {
+    .margin-container {
+        padding: 0 8em;
+    }
 }
