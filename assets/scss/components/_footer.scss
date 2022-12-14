@@ -23,7 +23,7 @@ footer {
         align-items: baseline;
     }
 
-    .tester {
+    .footer-links {
         display: flex;
         flex-direction: row;
         align-items: baseline;
@@ -35,8 +35,17 @@ footer {
     }
 }
 
+@media screen and (min-width: $medium-large) {
+    .footer-links {
+        div {
+            margin-left: 6em;
+        }
+    }
+
+}
+
 @media screen and (min-width: $large) {
-    footer{
+    footer {
         padding: 4em 8em;
     }
 }
