@@ -59,36 +59,41 @@ header {
         }
     }
 
-    .header-cta {
-        @include flex-center-column;
+    // .header-cta {
+    //     @include flex-center-column;
 
-        a:first-child {
-            margin-bottom: 1em;
-        }
-    }
+    //     a:first-child {
+    //         margin-bottom: 1em;
+    //     }
+    // }
 }
 
 .header-mockup {
     @include flex-center;
-    height: 60vh; //60
+    // height: 60vh; //update
     position: relative;
 
     img {
         width: 260px;
         position: absolute;
         z-index: 1;
-        bottom: -30%;
+        // bottom: -30%; //update
     }
 }
 
 @media screen and (min-height: 820px) {
-    .header-container {
-        margin-top: 10vh;
+    header {
+        .header-container {
+            margin-top: 10vh;
+            height: 30vh; //update verwijder
+        }
+
+        .header-mockup {
+            height: 50vh;
+        }
+
     }
 
-    .header-mockup {
-        height: 50vh;
-    }
 }
 
 @media screen and (min-width: $small) {
