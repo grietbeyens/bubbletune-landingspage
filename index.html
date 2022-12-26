@@ -48,7 +48,10 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bubbletune.be/" />
-    <meta property="og:title" content="Bubbletune | Break bubbles and connect" />
+    <meta
+      property="og:title"
+      content="Bubbletune | Break bubbles and connect"
+    />
     <meta
       property="og:description"
       content="Discover what other people listen to and broaden your music knowledge."
@@ -61,7 +64,10 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://bubbletune.be/" />
-    <meta property="twitter:title" content="Bubbletune | Break bubbles and connect" />
+    <meta
+      property="twitter:title"
+      content="Bubbletune | Break bubbles and connect"
+    />
     <meta
       property="twitter:description"
       content="Discover what other people are listening to and broaden your music knowledge. Put on your favorite Spotify song and connect with others!"
@@ -222,13 +228,21 @@
         <p class="sub-title">ain't nothing but a...</p>
       </div>
       <div class="container">
-        <div class="accordion">
-          <div class="accordion-item" id="question1">
-            <a class="accordion-link" href="#question1">
-              <h4>Should I be scared for my privacy?</h4>
-              <img class="icon-open" src="assets/img/open.svg" alt="Open" />
-              <img class="icon-close" src="assets/img/close.svg" alt="Close" />
-            </a>
+        <div class="content-accordion">
+          <div class="question-answer">
+            <div class="question">
+              <button class="question-btn">
+                <h4 class="title-question">
+                  Should I be scared for my privacy?
+                </h4>
+                <span class="up-icon">
+                  <img src="/assets/img/close.svg" alt="close" />
+                </span>
+                <span class="down-icon">
+                  <img src="/assets/img/open.svg" alt="open" />
+                </span>
+              </button>
+            </div>
             <div class="answer">
               <p>
                 Don’t you worry ‘bout a thing! Your privacy is very important to
@@ -238,12 +252,18 @@
             </div>
           </div>
 
-          <div class="accordion-item" id="question2">
-            <a class="accordion-link" href="#question2">
-              <h4>Do I have to pay?</h4>
-              <img class="icon-open" src="assets/img/open.svg" alt="Open" />
-              <img class="icon-close" src="assets/img/close.svg" alt="Close" />
-            </a>
+          <div class="question-answer">
+            <div class="question">
+              <button class="question-btn">
+                <h4 class="title-question">Do I have to pay?</h4>
+                <span class="up-icon">
+                  <img src="/assets/img/close.svg" alt="close" />
+                </span>
+                <span class="down-icon">
+                  <img src="/assets/img/open.svg" alt="open" />
+                </span>
+              </button>
+            </div>
             <div class="answer">
               <p>
                 Only if you want to use our premium features, such as reacting
@@ -253,12 +273,18 @@
             </div>
           </div>
 
-          <div class="accordion-item" id="question3">
-            <a class="accordion-link" href="#question3">
-              <h4>How can I report a bug/error?</h4>
-              <img class="icon-open" src="assets/img/open.svg" alt="Open" />
-              <img class="icon-close" src="assets/img/close.svg" alt="Close" />
-            </a>
+          <div class="question-answer">
+            <div class="question">
+              <button class="question-btn">
+                <h4 class="title-question">How can I report a bug/error?</h4>
+                <span class="up-icon">
+                  <img src="/assets/img/close.svg" alt="close" />
+                </span>
+                <span class="down-icon">
+                  <img src="/assets/img/open.svg" alt="open" />
+                </span>
+              </button>
+            </div>
             <div class="answer">
               <p>
                 First off, thank u for helping us out! You can report bugs by
@@ -268,12 +294,20 @@
             </div>
           </div>
 
-          <div class="accordion-item" id="question4">
-            <a class="accordion-link" href="#question4">
-              <h4>Can I use Bubbletune with Apple Music?</h4>
-              <img class="icon-open" src="assets/img/open.svg" alt="Open" />
-              <img class="icon-close" src="assets/img/close.svg" alt="Close" />
-            </a>
+          <div class="question-answer">
+            <div class="question">
+              <button class="question-btn">
+                <h4 class="title-question">
+                  Can I use Bubbletune with Apple Music?
+                </h4>
+                <span class="up-icon">
+                  <img src="/assets/img/close.svg" alt="close" />
+                </span>
+                <span class="down-icon">
+                  <img src="/assets/img/open.svg" alt="open" />
+                </span>
+              </button>
+            </div>
             <div class="answer">
               <p>
                 Not yet, currently you can only use the app with Spotify.
@@ -283,12 +317,20 @@
             </div>
           </div>
 
-          <div class="accordion-item" id="question5">
-            <a class="accordion-link" href="#question5">
-              <h4>Can I just see the songs without interacting with people?</h4>
-              <img class="icon-open" src="assets/img/open.svg" alt="Open" />
-              <img class="icon-close" src="assets/img/close.svg" alt="Close" />
-            </a>
+          <div class="question-answer">
+            <div class="question">
+              <button class="question-btn">
+                <h4 class="title-question">
+                  Can I just see the songs without interacting with people?
+                </h4>
+                <span class="up-icon">
+                  <img src="/assets/img/close.svg" alt="close" />
+                </span>
+                <span class="down-icon">
+                  <img src="/assets/img/open.svg" alt="open" />
+                </span>
+              </button>
+            </div>
             <div class="answer">
               <p>
                 Yes you can, even completely for free. However, it could be nice
@@ -297,6 +339,8 @@
               </p>
             </div>
           </div>
+
+
         </div>
       </div>
     </section>
@@ -371,5 +415,6 @@
         <a class="links" href="#">bubbletune.app</a>
       </div>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
